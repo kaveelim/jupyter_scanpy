@@ -4,4 +4,4 @@ RUN conda config --add channels conda-forge && conda config --add channels bioco
 
 RUN conda install mamba -c conda-forge
 
-RUN mamba install scanpy=1.7 --yes
+RUN mamba install scanpy=1.7 leidenalg --yes
